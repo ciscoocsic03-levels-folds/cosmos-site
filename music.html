@@ -1,15 +1,51 @@
-  <div class="panel">
-    <h3>Featured tracks</h3>
-    <ul>
-      <li><strong>Track 1:</strong> Title — short note</li>
-      <li><strong>Track 2:</strong> Title — short note</li>
-    </ul>
-  </div>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Cosmos — Music</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="brand">The Cosmos</h1>
+      <nav aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="music.html" aria-current="page">Music</a>
+        <a href="#fiction-lab">Fiction Lab</a>
+      </nav>
+    </div>
+  </header>
 
-  <div class="panel">
-    <h3>Contribute a track</h3>
-    <p>If you want to share a track, add an HTML section or a link here and open a PR.</p>
-  </div>
+  <main class="wrap">
+    <section id="music" class="panel">
+      <h2>Music</h2>
+      <p>Welcome to the Music hub — a place for tracks, playlists, and notes from The Cosmos.</p>
 
-  <p class="muted">Tip: create a folder /assets/audio/ and add audio files if you want to host them directly.</p>
-</section>
+      <div class="panel">
+        <h3>Featured tracks</h3>
+        <ul>
+          <li><strong>Track 1:</strong> Title — short note</li>
+          <li><strong>Track 2:</strong> Title — short note</li>
+        </ul>
+      </div>
+
+      <div class="panel">
+        <h3>Contribute a track</h3>
+        <p>If you want to share a track, add an HTML section or a link here and open a PR.</p>
+      </div>
+
+      <p class="muted">Tip: create a folder /assets/audio/ and add audio files if you want to host them directly.</p>
+    </section>
+  </main>
+
+  <footer class="panel footer">
+    <p>Staging site • Use locally or deploy to Netlify/Vercel for previews.</p>
+  </footer>
+
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>
