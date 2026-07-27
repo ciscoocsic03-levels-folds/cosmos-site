@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Cosmos — Staging</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="brand">The Cosmos</h1>
+      <nav aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#fiction-lab">Fiction Lab</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="home" class="hero">
+      <h2>Welcome to the Cosmos</h2>
+      <p>Home for music, books, lore and community. Start small — build a portal for fans.</p>
+      <p><a class="cta" href="#fiction-lab">Open the Fiction Lab (To‑Do + Sandbox)</a></p>
+    </section>
+
+    <section id="about" class="panel">
+      <h3>About</h3>
+      <p>Wacky’s Cosmos — creative universe: music, stories, and a growing community. This is a staging site for planning and iteration.</p>
+      <ul>
+        <li><strong>Team:</strong> Wacky, Serah, Jessie, Veda, Emma, Nixx, Misty, Fantasia, Harmony, Anna</li>
+        <li>Draft site scaffold and staging preview.</li>
+      </ul>
+    </section>
+
+    <section id="fiction-lab" class="panel">
+      <h3>Fiction Lab — To‑Do Manager</h3>
+      <p>Use this to keep track of small tasks while building the Cosmos site. Tasks persist in your browser via localStorage.</p>
+
+      <div id="todo-app" class="todo-card" aria-live="polite">
+        <form id="todo-form" aria-label="Add task">
+          <label for="todo-input" class="visually-hidden">New task</label>
+          <input id="todo-input" type="text" placeholder="Add a new task (press Enter or click Add)" autocomplete="off" />
+          <button id="todo-add" type="submit">Add</button>
+          <button id="todo-clear" type="button" class="btn-secondary">Clear All</button>
+        </form>
+
+        <ul id="todo-list" aria-label="Tasks list"></ul>
+      </div>
+
+      <p class="muted">Tip: try add → refresh the page. Tasks should stay.</p>
+    </section>
+
+    <footer class="panel footer">
+      <p>Staging site • Use locally or deploy to Netlify/Vercel for previews.</p>
+    </footer>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
